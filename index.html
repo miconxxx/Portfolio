@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mikael's portfolio </title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/45979ee15a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="images/logo.png" class="logo">
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#Services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="fa fa-times" aria-hidden="true" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa fa-bars" aria-hidden="true" onclick="openmenu()"></i>
+      </nav>
+      
+    </div>
+  </div>
+
+
+
+
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="images/user.png">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <p><br>
+               Hi there, I’m Michael and for the last year 
+            I’ve been making people and businesses be seen,heard and known using my skills 
+            in copywriting and graphic design, composing 
+            expertly crafted words and presenting those 
+            words in the best possible way.There is nothing 
+            I love more doing than hearing the value behind 
+            someone’s work and putting it upfront for those who need it.
+          </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+              <p class="tab-links" onclick="opentab('experience')">Experience</p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>☆ Copywriting</span><br><br>Writing to sell<br>Email copy,Sales letters and Ads.</li>
+                <li><span>☆ Graphic design</span><br><br>Visual content<br>Illutrations,Social media ads and Posts.</li>
+                <li><span>☆ Branding</span><br><br>Establishing identity<br>Typography, Color and Logo design.</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li><span>➼ 2023 - present</span><br><br>Freelance copywriter and graphic designer.</li>
+                <li><span>➼ 2020 - 2022</span><br><br>Social media manager at Anbessa designs.</li>
+                <li><span>➼ 2019 - 2020</span><br><br>Intern graphic designer Adrash delivery</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>⦾ 2015 - 2019 Graduated Highschool</span><br><br>from St. Joseph School Addis Ababa<br></li>
+                <li><span>⦾ 2019 - 2024 Degree in Biomedical Engineering</span><br><br>from Hawassa University,Ethiopia </li>
+              </ul>
+            </div>
+        </div>
+        </div>
+    </div>
+  </div>
+
+
+<div id="Services">
+  <div class="container">
+    <h1 class="sub-title">My Services</h1>
+    <div class="Services-list">
+      <div>
+        <i class="fa-solid fa-pen-nib"></i>
+        <h2>Copywriting</h2>
+        <p>By writing copy for almost a year now, I have seen how words are weapons 
+          business owners have to make our prospects see and listen. When arranged 
+          perfectly words hold the power to get prospects take the actions we want.
+        </p>
+        <a href="#">learn more</a>
+      </div>
+      <div>
+        
+        <i class="fa-solid fa-laptop"></i>
+        <h2>Graphic Design</h2>
+        You could offer the best service in the world, you will get easily overlooked 
+        if your visuals don't make people stop and pay attention to who you are and 
+        what you’re saying. Working with almost 30 plus clients on over 100 projects 
+        for the last 2 years has helped understand what makes almost any audience tick.</p>
+        <a href="#">learn more</a>
+      </div>
+      <div>
+        <i class="fa-solid fa-swatchbook"></i>
+        <h2>Branding</h2>
+        <p>People judge right away not just other people they judge a product or a service.
+          They judge whether or not it is good for them and whether it is worth their time.
+           Good first impressions do go a longway, what better way to make the most out of
+            them than impecable branding.</p>
+        <a href="#">learn more</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div id="portfolio">
+  <div class="container">
+    <h1 class="sub-title">My Works</h1>
+    <div class="work-list">
+      <div class="work">
+        <img src="images/work-1.png">
+        <div class="layer">
+          <h3>Copy</h3>
+          
+          <p>Posts that I wrote for and Emails I have composed over the years</p>
+         
+          <a href="copy.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+        </div>
+        
+      </div>
+      <div class="work">
+        <img src="images/work-2.png">
+        <div class="layer">
+          <h3>Graphics</h3>
+          <p>Visuals I have designing like social media posts, ads, banners and many more </p>
+          <a href="posts.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+        
+      </div>
+      <div class="work">
+        <img src="images/work-3.png">
+        <div class="layer">
+          <h3>Branding projects</h3>
+          <p>Typography, colors, and logo design projects I worked on</p>
+          <a href="design.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+        
+      </div>
+    </div>
+    <a href="#" class ="btn">See More</a>
+  </div>
+</div>
+
+
+
+
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fa-solid fa-envelope"></i>Mikaeldesigns7@gmail.com</p>
+        <p><i class="fa-solid fa-phone"></i>0920590280</p>
+        <div class="social-icons">
+          <a href="t.me/miconx"><i class="fa-brands fa-telegram"></i></a>
+          <a href="t.me/mikael_creates"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="t.me/mikael_creates"><i class="fa-brands fa-pinterest"></i></a>
+        </div>
+        <a href="images/CV.pdf" download class="btn btn2">Download CV</a>
+      </div>
+      <div class="contact-right">
+        <form name ="submit-to-google-sheet">
+        <input type="text" name="Name" placeholder="Your name" required>
+        <input type="email" name="Email" placeholder="Your email" required>
+        <textarea name="Message" rows="6" placeholder="your message"></textarea>
+        <button type="submit" class="btn btn2">Submit</button>
+      </form>
+      <span id="msg"></span>
+
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <p>Copyright © made by mikael</p>
+  </div>
+</div>
+
+
+
+
+  <script>
+
+    var tablinks =document.getElementsByClassName("tab-links");
+    var tabcontents =document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+      for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+      }
+      for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab")
+    }
+  </script>
+
+  <script>
+    var sidemeu=document.getElementById("sidemenu");
+
+    function openmenu(){
+      sidemeu.style.right ="0";
+    }
+    function closemenu(){
+      sidemeu.style.right= "-100px";
+    }
+</script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzrAVaGGQdonq4F9cUFzqSYTAh9n40dHpKrFtXsqzIuy5W1fdhuc5ivprqGxAs6QOGN/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "message sent successfully"
+        setTimeout(function(){
+          msg.innerHTML = ""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>

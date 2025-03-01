@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Images</title>
+  <style>
+    /* General reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Set black background */
+    body {
+      background-color: white;
+      color: white;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Container for the images */
+    .container {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+      padding: 20px;
+      gap: 10px;
+    }
+
+    /* Style for images */
+    .container img {
+      max-width: 100%;
+      height: auto;
+      border: 2px solid white; /* Optional - adds a nice border to images */
+      flex: 1 1 calc(33.333% - 20px); /* Responsive sizing for three images */
+      object-fit: cover;
+    }
+
+    /* Ensure responsiveness */
+    @media (max-width: 768px) {
+      .container img {
+        flex: 1 1 calc(50% - 20px);
+      }
+    }
+
+    @media (max-width: 480px) {
+      .container img {
+        flex: 1 1 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="images/branding-1.png" alt="Image 1">
+    <img src="images/Branding-3.png" alt="Image 2">
+    <img src="images/branding-2.png" alt="Image 3">
+  </div>
+</body>
+</html>
